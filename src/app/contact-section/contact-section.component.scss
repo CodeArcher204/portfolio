@@ -1,0 +1,141 @@
+.content {
+    max-width: 1440px;
+    width: 100%;
+    margin: 124px auto;
+    padding: 0 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    > span {
+        width: 39px;
+        height: 39px;
+    }
+}
+
+.full-width {
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    margin-right: -100px;
+
+    > h2 {
+        font-size: 90px;
+        font-weight: 700;
+    }
+}
+
+.line {
+    border: solid 2px #00bee8;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.small-line {
+    border: solid 2px #1ce6b6;
+    border-radius: 5px;
+    width: 50px;
+    height: 1px;
+}
+
+.headline-container {
+    align-items: center;
+    display: flex;
+    margin-left: -100px;
+    gap: 50px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 50px;
+    position: relative;
+}
+
+.text {
+    flex: 1;
+    > div > h3 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    > p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.form {
+    flex: 1;
+    position: relative;
+}
+
+.go-up-container {
+    position: relative;
+}
+
+.go-up-btn {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 39px;
+    height: 39px;
+
+    .go-up-icon {
+        width: 39px;
+        height: 39px;
+        background: url("../../assets/img/icons/go_up_btn.png") no-repeat center center;
+        background-size: contain;
+
+        &:hover {
+            background: url("../../assets/img/icons/go_up_btn_hover.png") no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+.background-shadow {
+    position: absolute;
+    right: -300px;
+    top: 500px;
+    z-index: -2;
+
+    object-fit: cover;
+
+}
+
+@media (max-width: 700px) {
+    .header {
+        >h2{
+            font-size: 45px;
+
+        }
+    }
+    .form-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .content {
+        padding: 0 16px;
+    }
+    // .text, .form {
+    //     flex: 0;
+    // }
+}
+
+@media (max-width: 500px) {
+    .headline-container {
+        margin-left: -16px;
+        gap: 8px;
+        >h3 {
+            font-size: 23px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<div class="header-full-width">
+  <div class="header-content">
+    <img src="../../assets/img/logo-white-new.png" alt="" />
+    <div class="menu">
+      <div class="language-switcher">
+        <button (click)="switchLanguageDe('de')">DE</button> | 
+        <button (click)="switchLanguageEn('en')">EN</button>
+      </div>
+      <a href="#about-me">{{ 'aboutMe' | translate }}</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">{{ 'portfolio' | translate }}</a>
+    </div>
+    <div class="burger-menu" (click)="toggleBurgerMenu()">
+      <img [src]="burgerIconSrc" alt="Menu" id="burger-icon" />
+    </div>
+    <div class="burger-menu-overlay" *ngIf="isBurgerMenuOpen" (click)="toggleBurgerMenu()"></div>
+    <div class="burger-menu-content" [class.open]="isBurgerMenuOpen">
+      <div class="language-switcher">
+        <button (click)="switchLanguageDe('de')">DE</button> | 
+        <button (click)="switchLanguageEn('en')">EN</button>
+      </div>
+      <a href="#about-me" (click)="toggleBurgerMenu()">{{ 'aboutMe' | translate }}</a>
+      <a href="#skills" (click)="toggleBurgerMenu()">Skills</a>
+      <a href="#portfolio" (click)="toggleBurgerMenu()">{{ 'portfolio' | translate }}</a>
+    </div>
+  </div>
+</div>

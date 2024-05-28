@@ -1,0 +1,66 @@
+{
+    "iam": "Ich bin",
+    "aboutMe": "Über mich",
+    "aboutMeText": "Hallo, ich bin ein Front-End-Entwickler aus Hof/Saale, Deutschland.",
+    "bulb": "Ich erstelle gerne dynamische und responsive Websites. Mein Fokus liegt auf nahtlosen Benutzererfahrungen und sauberem, effizientem Code.",
+    "puzzle": "Durch die Developer Akademie habe ich meine Fähigkeiten in verschiedenen Aspekten der Front-End-Entwicklung verfeinert. Mit einer soliden Grundlage und Vertrauen in meine Fähigkeiten in der Softwareentwicklung freue ich mich darauf, meine nächste berufliche Herausforderung anzunehmen!",
+    "letsTalkBtn": "Lass uns reden!",
+    "scrollDown": "Scroll runter",
+    "contactHeader": "Haben Sie ein Problem zu lösen?",
+    "contactText": "Kontaktieren Sie mich über dieses Formular, ich bin daran interessiert, von Ihnen zu hören, Ihre Ideen zu kennen und zu Ihren Projekten mit meiner Arbeit beizutragen.",
+    "contactTextLine2": "Benötigen Sie einen Frontend-Entwickler?",
+    "contactTextLine3": "Kontaktieren Sie mich!",
+    "skills": "Fähigkeiten",
+    "portfolio": "Portfolio",
+    "portfolioHeader": "Portfolio",
+    "descriptionPortfolio": "Unten finden Sie Projekte, die ich entwickelt habe.",
+    "skillsHeader": "Fähigkeiten",
+    "skillsText": "Ich habe Erfahrungen im Aufbau von Projekten mit verschiedenen Technologien und Konzepten gesammelt.",
+    "getInTouch": "Kontakt",
+    "contactFormNameError": "Name benötigt",
+    "contactFormEmailError": "Email benötigt",
+    "contactFormMessageError": "Bitte Nachricht eintragen",
+    "contactFormPrivacyError": "Sie müssen der Datenschutzerklärung zustimmen",
+    "contactFormButton": "Senden",
+    "contactFormName": "Ihr Name",
+    "contactFormEmail": "Ihre Email",
+    "contactFormMessage": "Ihre Nachricht",
+    "contactFormPrivacyText1": "Ich habe die",
+    "contactFormPrivacyText2": "Datenschutzerklärung",
+    "contactFormPrivacyText3": "gelesen und stimme dieser zu.",
+    "projects": [
+      {
+        "title": "Sharkie",
+        "imageUrl": "/assets/img/project-img/sharkie.png",
+        "description": "Schwimm-, Schlag- und Blasenschießspiel basierend auf dem objektorientierten Ansatz. Hilf Sharkie, Münzen und Flaschen zu sammeln, um den gefährlichen Hai zu bekämpfen.",
+        "githubUrl": "https://github.com/CodeArcher204/game-sharkie",
+        "liveTestUrl": "https://oumout-resit-ismail.developerakademie.net/Sharkie/index.html",
+        "technologies": "Javascript | HTML | CSS"
+      },
+      {
+        "title": "Join - Kanban Board",
+        "imageUrl": "/assets/img/project-img/Join.png",
+        "description": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "https://oumout-resit-ismail.developerakademie.net/Join%20-%20Kanban%20Board/login.html",
+        "technologies": "Javascript | HTML | CSS"
+      },
+      {
+        "title": "Portfolio",
+        "imageUrl": "/assets/img/project-img/portfolio.png",
+        "description": "Meine eigene Portfolio-Seite, auf der Sie sich gerade befinden.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "#",
+        "technologies": "Angular | TypeScript | SCSS"
+      },
+      {
+        "title": "Pokedex",
+        "imageUrl": "/assets/img/project-img/pokedex.png",
+        "description": "Eine Bibliothek basierend auf der PokeAPI.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "https://oumout-resit-ismail.developerakademie.net/pokemon/index.html",
+        "technologies": "Javascript | API | CSS | HTML"
+      }
+    ],
+    "imprint": "Impressum"
+  }

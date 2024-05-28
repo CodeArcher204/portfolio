@@ -1,0 +1,162 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px 20xp 20px;
+    border-radius: 8px;
+    align-items: center;
+    position: relative;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #ffffff; /* White color for labels */
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+        padding: 15px 25px 15px 25px;
+        border: 1px solid #4b47ff; /* Light gray border */
+        border-radius: 10px;
+        background: #141d2f; /* Darker background for inputs */
+        color: #ffffff; /* White text color */
+        &::placeholder {
+            color: white; /* Placeholder text color */
+        }
+    }
+
+    input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+    }
+    &.has-error {
+        input,
+        textarea {
+            border-color:  red; 
+            background-image: url('../../assets/img/icons/red_warning.png');
+            background-repeat: no-repeat;
+            background-position: calc(100% - 12px) 12px;
+            background-size: 20px 20px;
+        }
+
+        .error-message {
+            color: red; 
+            font-size: 12px;
+            margin-top: 4px;
+        }
+    }
+}
+
+textarea {
+    height: 200px;
+    max-height: 200px;
+}
+
+.error-placeholder {
+    min-height: 32px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #00bee8; /* Gray color */
+    color: white;
+    font-size: 23px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    &:disabled {
+        background-color: #b6b6b6; /* Darker gray for disabled state */
+        cursor: not-allowed;
+    }
+}
+
+a {
+    color: #4B47FF; /* Blue color for privacy policy link */
+}
+
+
+
+
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    color: #ffffff; /* White color for labels */
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    .checkbox {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background: url('../../assets/img/icons/check_box_outline_blank.png') no-repeat center;
+      background-size: contain;
+    }
+
+    &:hover input ~ .checkbox {
+      background: url('../../assets/img/icons/check_box.png') no-repeat center;
+      background-size: contain;
+    }
+
+    input:checked ~ .checkbox {
+      background: url('../../assets/img/icons/check_box.png') no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  .msg-send {
+    white-space: nowrap;
+    z-index: 200;
+    position: absolute;
+    bottom: 50px;
+    color: #70e61c;
+    animation: flyIn 1s ease-in-out, flyOut 1s ease-in-out 1.5s forwards;
+  
+    @media (max-width: 705px) {
+      left: 25%;
+    }
+  
+    @keyframes flyIn {
+      100% {
+        left: 45%;
+      }
+      0% {
+        left: -200%;
+      }
+    }
+  
+    @keyframes flyOut {
+      0% {
+        left: 45%;
+      }
+      100% {
+        left: 200%;
+      }
+    }
+  }

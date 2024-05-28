@@ -1,0 +1,32 @@
+<div class="above-the-fold-full-width">
+  <div class="content">
+    <img class="img-left" src="../../assets/img/purple_shadow.png" alt="" />
+    <img class="img-right" src="../../assets/img/green_shadow.png" alt="" />
+    <div class="rotate">
+      <span [ngClass]="{'de': this.service.isGerman, 'en': !this.service.isGerman}">{{ 'iam' | translate }}</span>
+    </div>
+    <div>
+      <div class="divide">
+        <span class="name">Oumout Resit Ismail</span>
+        <span class="job">FRONTEND DEVELOPER</span>
+      </div>
+      <div class="container">
+        <a href="#contact" class="btn">{{ 'letsTalkBtn' | translate }}</a>
+      </div>
+    </div>
+    <div class="socials">
+      <div class="social-links">
+        <img class="line" src="../../assets/img/icons/line1.png" alt="" />
+        <div>
+          <a target="_blank" href="https://github.com/CodeArcher204"><img src="../../assets/img/icons/github_icon.svg" alt=""></a>
+          <a href="#contact"><img src="../../assets/img/icons/email_icon.svg" alt=""></a>
+          <a target="_blank" href="https://linkedin.com/in/oumoutresitsmail"> <img src="../../assets/img/icons/linkedin_icon.svg" alt=""> </a>
+        </div>
+      </div>
+      <div class="scroll-down-container">
+        <span>{{ 'scrollDown' | translate }}</span>
+        <img src="../../assets/img/icons/arrow_forward.svg" alt="" />
+      </div>
+    </div>
+  </div>
+</div>

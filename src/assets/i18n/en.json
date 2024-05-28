@@ -1,0 +1,67 @@
+{
+    "iam": "I am",
+    "aboutMe": "About me",
+    "aboutMeText": "Hi, I am a Front-end developer based in Hof/Saale, Germany.",
+    "bulb": "I like to create dynamic and responsive websites. My focus is on crafting seamless user experiences and writing clean, efficient code.",
+    "puzzle": "Through the Developer Akademie, I have honed my skills in various aspects of front-end development. With a strong foundation and confidence in my software development abilities, I am eager to take on my next professional challenge!",
+    "letsTalkBtn": "Let’s talk!",
+    "scrollDown": "Scroll down",
+    "contactHeader": "Got a problem to solve?",
+    "contactText": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+    "contactTextLine2": "Need a Frontend developer?",
+    "contactTextLine3": "Contact me!",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "portfolioHeader": "Portfolio",
+    "descriptionPortfolio": "Down below you can find projects I have developed.",
+    "skillsHeader": "Skills",
+    "skillsText": "I have gained experience in building projects with various technologies and concepts.",
+    "getInTouch": "Contact",
+    "contactFormNameError": "Your name is required.",
+    "contactFormEmailError": "Your email is required.",
+    "contactFormMessageError": "Your message is empty",
+    "contactFormPrivacyError": "You must agree to the privacy policy.",
+    "contactFormButton": "Send message",
+    "contactFormName": "Your Name",
+    "contactFormEmail": "Your email",
+    "contactFormMessage": "Your message",
+    "contactFormPrivacyText1": "I've read the",
+    "contactFormPrivacyText2": "privacy policy",
+    "contactFormPrivacyText3": "and agree to the processing of my data as outlined.",
+    "projects": [
+      {
+        "title": "Sharkie",
+        "imageUrl": "/assets/img/project-img/sharkie.png",
+        "description": "Swim, slap and bubble shooting game based on the object-oriented approach. Help Sharkie to collect coins and bottles to fight the dangerous Shark.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "https://oumout-resit-ismail.developerakademie.net/Sharkie/index.html",
+        "technologies": "Javascript | HTML | CSS"
+      },
+      {
+        "title": "Join - Kanban Board",
+        "imageUrl": "/assets/img/project-img/Join.png",
+        "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "https://oumout-resit-ismail.developerakademie.net/Join%20-%20Kanban%20Board/login.html",
+        "technologies": "Javascript | HTML | CSS"
+      },
+      {
+        "title": "Portfolio",
+        "imageUrl": "/assets/img/project-img/portfolio.png",
+        "description": "My own Portfolio page you are currently on.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "#",
+        "technologies": "Angular | TypeScript | SCSS"
+      },
+      {
+        "title": "Pokedex",
+        "imageUrl": "/assets/img/project-img/pokedex.png",
+        "description": "A library based on the PokeAPI.",
+        "githubUrl": "https://github.com",
+        "liveTestUrl": "https://oumout-resit-ismail.developerakademie.net/pokemon/index.html",
+        "technologies": "Javascript | API | CSS | HTML"
+      }
+    ],
+    "imprint": "Imprint"
+  }
+  

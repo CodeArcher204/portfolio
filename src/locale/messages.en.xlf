@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aboutMe" datatype="html">
+        <source>About me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutMeText" datatype="html">
+        <source>Hi, I am a Front-end developer based in Hof/Saale, Germany.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bulb" datatype="html">
+        <source>I like to create dynamic and responsive websites. My focus is on crafting seamless user experiences and writing clean, efficient code.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="puzzle" datatype="html">
+        <source> Through the Developer Akademie, I have honed my skills in various aspects of front-end development. With a strong foundation and confidence in my software development abilities, I am eager to take on my next professional challenge! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="letsTalkBtn" datatype="html">
+        <source>Let´s talk!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/above-the-fold/above-the-fold.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="scrollDown" datatype="html">
+        <source>Scroll down </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/above-the-fold/above-the-fold.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactHeader" datatype="html">
+        <source>Got a problem to solve ?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactText" datatype="html">
+        <source>Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactTextLine2" datatype="html">
+        <source>Need a Frontend developer ? <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Contact me!<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-section/contact-section.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source>Skills</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio" datatype="html">
+        <source>Portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolioHeader" datatype="html">
+        <source>Portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio-section/portfolio-section.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="descriptionPortfolio" datatype="html">
+        <source>Down below you can find projects I have developed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/portfolio-section/portfolio-section.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skillsHeader" datatype="html">
+        <source>Skills</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills-section/skills-section.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skillsText" datatype="html">
+        <source>I have gained experience in building projects with various technologies and concepts.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills-section/skills-section.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="getInTouch" datatype="html">
+        <source>Get in touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills-section/skills-section.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

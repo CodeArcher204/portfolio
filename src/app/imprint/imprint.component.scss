@@ -1,0 +1,68 @@
+.full-width {
+    overflow-y: hidden; // Verhindert vertikales Scrollen
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 1440px;
+    width: 100%;
+    margin: 124px auto;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: visible; // Erlaubt das Hinausragen von Inhalten nach rechts
+    overflow-y: hidden; // Verhindert das vertikale Scrollen
+    > span {
+        width: 39px;
+        height: 39px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    margin-right: 0; // Entfernt die negative Marge, um horizontales Scrollen zu verhindern
+
+    > h2 {
+        font-size: 90px;
+        font-weight: 700;
+    }
+}
+
+.line {
+    border: solid 2px #00bee8;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.small-line {
+    border: solid 2px #1ce6b6;
+    border-radius: 5px;
+    width: 50px;
+    height: 1px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    > div > h3 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    > p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

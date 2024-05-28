@@ -1,0 +1,47 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <div>
+        <div class="form-group" [ngClass]="{ 'has-error': !contactForm.controls['name'].valid && contactForm.controls['name'].touched }">
+            <input id="name" formControlName="name" placeholder="{{ 'contactFormName' | translate }}" required />
+            <!-- <img *ngIf="!contactForm.controls['name'].valid && contactForm.controls['name'].touched" src="../../assets/img/icons/red_warning.png" class="error-icon"> -->
+            <div class="error-placeholder">
+                <div *ngIf="!contactForm.controls['name'].valid && contactForm.controls['name'].touched" class="error-message">{{ "contactFormNameError" | translate }}</div>
+            </div>
+        </div>
+
+        <div class="form-group" [ngClass]="{ 'has-error': !contactForm.controls['email'].valid && contactForm.controls['email'].touched }">
+            <input id="email" formControlName="email" placeholder="{{ 'contactFormEmail' | translate }}" required type="email" />
+            <div class="error-placeholder">
+                <div *ngIf="!contactForm.controls['email'].valid && contactForm.controls['email'].touched" class="error-message">{{ "contactFormEmailError" | translate }}</div>
+            </div>
+        </div>
+
+        <div class="form-group" [ngClass]="{ 'has-error': !contactForm.controls['message'].valid && contactForm.controls['message'].touched }">
+            <textarea id="message" formControlName="message" placeholder="{{ 'contactFormMessage' | translate }}" required></textarea>
+            <div class="error-placeholder">
+                <div *ngIf="!contactForm.controls['message'].valid && contactForm.controls['message'].touched" class="error-message">
+                    {{ "contactFormMessageError" | translate }}
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group" [ngClass]="{ 'has-error': !contactForm.controls['privacyPolicy'].valid && contactForm.controls['privacyPolicy'].touched }">
+            <label for="privacyPolicy" class="custom-checkbox">
+                <input type="checkbox" id="privacyPolicy" formControlName="privacyPolicy" />
+                <span class="checkbox"></span>
+
+                {{ "contactFormPrivacyText1" | translate }} <a (click)="goToPrivacy()" target="_blank">{{ "contactFormPrivacyText2" | translate }}</a>
+                {{ "contactFormPrivacyText3" | translate }}
+            </label>
+            <div class="error-placeholder">
+                <div *ngIf="!contactForm.controls['privacyPolicy'].valid && contactForm.controls['privacyPolicy'].touched" class="error-message">
+                    {{ "contactFormPrivacyError" | translate }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" [disabled]="!contactForm.valid">{{ "contactFormButton" | translate }}</button>
+    @if (msgSend) {
+    <p class="msg-send">Message successfully send</p>
+    }
+</form>
